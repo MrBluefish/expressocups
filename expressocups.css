@@ -17,7 +17,7 @@ img {
     margin-left: 6%;
 .fancy {
     background-color: transparent;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 0;
     box-sizing: border-box;
     color: rgb(52, 70, 75);
@@ -43,7 +43,7 @@ img {
     content: " ";
     width: 1.5625rem;
     height: 2px;
-    background: #fff;
+    background: #000;
     top: 50%;
     left: 1.5em;
     position: absolute;
@@ -61,7 +61,7 @@ img {
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: #000;
    }
    
    .fancy .top-key {
@@ -95,13 +95,13 @@ img {
    }
    
    .fancy:hover {
-    color: white;
-    background: #fff;
+    color: #fff;
+    background: #000;
    }
    
    .fancy:hover::before {
     width: 0.9375rem;
-    background: white;
+    background: #fff;
    }
    
    .fancy:hover .text {
