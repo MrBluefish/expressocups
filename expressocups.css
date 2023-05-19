@@ -58,7 +58,9 @@ img {
     font-size: 1.125em;
     line-height: 1.33333em;
     padding-left: 2em;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: left;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
