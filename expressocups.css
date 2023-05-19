@@ -43,7 +43,7 @@ img {
     content: " ";
     width: 1.5625rem;
     height: 2px;
-    background: black;
+    background: #fff;
     top: 50%;
     left: 1.5em;
     position: absolute;
@@ -61,7 +61,7 @@ img {
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #fff;
    }
    
    .fancy .top-key {
@@ -96,7 +96,7 @@ img {
    
    .fancy:hover {
     color: white;
-    background: black;
+    background: #fff;
    }
    
    .fancy:hover::before {
